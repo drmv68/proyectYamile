@@ -1,0 +1,294 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    place-items: center;
+    height: 100vh;
+  }
+
+  .formulario-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  .titulo-principal {
+    color: #333; 
+  }
+
+  .subtitulo {
+    color: #555;
+  }
+
+  .boton {
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .boton:hover {
+    background-color: #45a049;
+  }
+
+  /*registroUno*/
+
+   #titleInputNameRegister{
+    margin-top:22px;
+  }
+  
+  
+   #titleInputNameRegister, #titleInputName, #date, #titleCompany, #titleInstalations, #tittleWorkNumber, #titleMultiSelect,
+   #titleInputNameAAL, #titleInputNameAA {
+      display: block;
+      margin-left:20px;
+      margin-bottom: 8px;
+      color: #333;
+      font-size:17px;
+    }
+
+  #inputNameRegister, #inputNameJob, #getDate, #instalations, #workNumber, #dropDown, #buttonNext, #company,  #inputNameAAL,  #inputNameAA, #otherCompanyInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #getDate {
+    width: calc(100% - 20px);
+  }
+
+  #company, #dropDown {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  #buttonNext {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #buttonNext:hover {
+    background-color: #2980b9;
+  }
+
+  /*dos ultimo apartadoRegisto*/
+  #dropDown1, #dropDown2, #dropDown3, #dropDown4, #dropDown5, #dropDown6, #dropDown7,
+  #dropDown8, #dropDown9, #dropDown10, #dropDown11, #dropDown12, #dropDown13, #dropDown14,
+  #dropDown15, #dropDown16, #dropDown17, #dropDown18, #dropDown19, #dropDown20 {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  #container1{
+    margin-top:24px;
+  }
+
+  #container1, #container2, #container3, #container4, #container5, #container6, #container7, #container8, 
+  #container9, #container10, #container11, #container12, #container13, #container14, #container15, #container16,
+  #container17, #container18, #container19, #container20{
+    font-size: 18.6px;
+  }
+
+  #item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10,
+  #item11, #item12, #item13, #item14, #item15, #item16, #item17, #item18, #item19, #item20 {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  #finishButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom:55px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #finishButton:hover {
+    background-color: #2980b9;
+  }
+
+  /*ESTADISTICAS PRINCIPAL*/
+
+  #containerTable {
+    margin: 20px;
+  }
+  
+  #table {
+    margin: 2% 8%;
+    display: grid;
+    box-shadow: 0 0 10px rgba(97, 97, 97, 0.5);
+    padding: 4px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    
+  }
+  
+  #table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #table th {
+    background-color: #f2f2f2;
+  }
+  
+  #showTotalJobers {
+    margin-top: 20px;
+    display: block;
+    color: #333;
+  }
+  
+  #bottonShowRegisters, #botonShowDataByCompany, #bottonShowRegisters {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    margin:30px 10px 33px 8%;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  #bottonShowRegisters:hover, #botonShowDataByCompany:hover, #bottonShowRegisters:hover {
+    background-color: #2980b9;
+  }
+
+  /*datos por fecha apartado uno*/
+
+  #dateDesde,
+  #dateHasta,
+  #botonInicarBusquedaPorFecha {
+    margin-bottom: 10px;
+  }
+  
+  #dateDesde,
+  #dateHasta {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(35% - -5%);
+    box-sizing: border-box;
+    margin: 20% 1.5%;
+  }
+  
+  #botonInicarBusquedaPorFecha, #botonIniciarBusquedaPorFecha {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #botonInicarBusquedaPorFecha:hover, #botonIniciarBusquedaPorFecha:hover {
+    background-color: #2980b9;
+  }
+
+  #buttonBackToShowAllStadistic{
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color;
+    margin: 20px 0px 29px 90%;
+  }
+  
+  #buttonBackToShowAllStadistic:hover{
+    background-color: #2980b9;
+  }
+
+
+  /*mostrar por company*/
+
+  .containerTable{
+    margin: 2% 8%;
+      display: grid;
+      box-shadow: 0 0 10px rgba(97, 97, 97, 0.5);
+      padding: 4px;
+      border-radius: 5px;
+      width: 50%;
+      text-align: center;
+  }
+  
+    .table td, .table th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    .table th {
+      background-color: #f2f2f2;
+    }
+  
+    .showTotalJobers {
+      margin-left: 16.6px;
+      margin-top: 20px;
+      display: block;
+      color: #333;
+    }
+
+    /*Mostrar registradores*/
+
+    #conteo-registradores-tabla {
+        margin: 76px auto; /* Centra la tabla en la pantalla */
+        border-collapse: collapse; /* Combina los bordes de las celdas */
+        width: 80%; /* Ajusta el ancho de la tabla según tus preferencias */
+      }
+      
+      .conteo-registradores-clase {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+        text-align: center; /* Centra el texto en las celdas */
+      }
+      
+      #conteo-registradores-tabla td {
+        border: 1px solid #ddd; /* Borde de las celdas */
+        padding: 8px; /* Espaciado interno de las celdas */
+      }
+      
+
+      .bottonShowCompanyWhitDate{
+        margin:9px 12px 8px 74%;
+      }
